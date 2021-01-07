@@ -1,0 +1,30 @@
+body{
+	margin: 0;
+}
+.in{
+		position: absolute;
+		height: 100%;
+		width: 40%;
+		background: green;
+		border: 2px solid black;	
+		padding: 15px;	
+}
+select,input{
+		margin: 10px;
+}
+.crc{border-radius: 50%;}
+input[type="Color"],.crc{
+							height: 30px;
+							width: 30px;
+}
+.p,.p2,.p3{
+	position: absolute;
+	right: 10%;
+}
+canvas{
+		position: absolute;
+		left: 42.5%;
+		width: 57.5%;
+		height: 100%;
+		background: grey;
+}

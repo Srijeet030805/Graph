@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<link rel="stylesheet" type="text/css" href="stat.css">
+	<div class="in">
+		<div class="tle">
+			Title: <input placeholder="eg. Marks " maxlength="15"><br>
+			X-Axis Name: <input placeholder="eg. Marks Obtained " maxlength="15"><br>
+			Y-Axis Name: <input placeholder="eg. No. of students" maxlength="15"><br>
+		</div>
+
+		<select>
+			<option></option>
+			<option value="b">Bar Graph</option>
+			<option value="l">Line Chart/Frequency Polygon</option>
+			<option value="p">Pie Chart</option>
+		</select>
+
+		<div style="display: none;" class="b">
+		
+			Data : <br>
+			<div id="Data">
+				<div> Name: <input placeholder="Name"> Value: <input type="Number" placeholder="eg. 20"> Color: <input type="Color"><br></div>
+				<div> Name: <input placeholder="Name"> Value: <input type="Number" placeholder="eg. 20"> Color: <input type="Color"><br></div>
+				<div> Name: <input placeholder="Name"> Value: <input type="Number" placeholder="eg. 20"> Color: <input type="Color"><br></div>
+			</div>
+			<button class="crc p">+</button>
+			<button class="crc m">-</button><br><br>
+			<button class="s">Go!</button>
+
+		</div>
+
+		<div style="display: none;" class="l">
+		
+			Data : <br>
+			<div id="Data2">
+				<div> Name: <input placeholder="Name"> Value: <input type="Number" placeholder="eg. 20"> Color: <input type="Color"><br></div>
+				<div> Name: <input placeholder="Name"> Value: <input type="Number" placeholder="eg. 20"> Color: <input type="Color"><br></div>
+				<div> Name: <input placeholder="Name"> Value: <input type="Number" placeholder="eg. 20"> Color: <input type="Color"><br></div>
+			</div>
+			<button class="crc p2">+</button>
+			<button class="crc m2">-</button><br><br>
+			<button class="s">Go!</button>
+
+		</div>
+
+		<div style="display: none;" class="c">
+		
+			Data : <br>
+			<div id="Data3">
+				<div> Name: <input placeholder="Name"> Value: <input type="Number" placeholder="eg. 20"> Color: <input type="Color"><br></div>
+				<div> Name: <input placeholder="Name"> Value: <input type="Number" placeholder="eg. 20"> Color: <input type="Color"><br></div>
+				<div> Name: <input placeholder="Name"> Value: <input type="Number" placeholder="eg. 20"> Color: <input type="Color"><br></div>
+			</div>
+			<button class="crc p3">+</button>
+			<button class="crc m3">-</button><br><br>
+			<button class="s">Go!</button>
+
+		</div>
+
+	</div>
+	<canvas></canvas>
+	<script type="text/javascript" src="stat.js"></script>
+</body>
+</html>

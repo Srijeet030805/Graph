@@ -1,0 +1,15 @@
+body
+{
+	margin: 0;
+}
+canvas
+{
+	margin: 0 15% 2.5% 15%;
+	width: 70%;
+	background: grey;
+}
+div{
+		position: absolute;
+		left: 50%;
+		transform: translate(-50%,0);
+}
